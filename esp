@@ -151,5 +151,6 @@ end
 game.Players.PlayerAdded:Connect(function(newplr)
     if newplr.Name ~= player.Name then
         coroutine.wrap(ESP)(newplr)
-
+          end
+      end,
 
